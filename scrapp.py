@@ -28,7 +28,7 @@ if __name__ == "__main__":
 	for u in parser.urls:
 		print u
 		ls1.append(u)
-	raw_input()
+	
 	ls2 = filter(lambda x: x!= '#', ls1)
 	ls = ["" + u for u in ls2]
 	
